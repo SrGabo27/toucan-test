@@ -1,0 +1,32 @@
+/* Small screens */
+@media (max-width: 640px) {
+  .news-slider-title {
+    font-size: 24px;
+  }
+
+  .news-slider-description {
+    font-size: 18px;
+  }
+}
+
+/* Medium screens */
+@media (min-width: 641px) and (max-width: 768px) {
+  .news-slider-title {
+    font-size: 32px;
+  }
+
+  .news-slider-description {
+    font-size: 24px;
+  }
+}
+
+/* Large screens */
+@media (min-width: 769px) {
+  .news-slider-title {
+    font-size: 40px;
+  }
+
+  .news-slider-description {
+    font-size: 28px;
+  }
+}

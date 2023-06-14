@@ -1,0 +1,9 @@
+.swiper-button-prev {
+  color: var(--gray);
+  margin-left: 80px;
+}
+
+.swiper-button-next {
+  color: var(--gray);
+  margin-right: 80px;
+}

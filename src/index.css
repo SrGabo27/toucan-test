@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  width: 100%;
+  background-image: url("./assets/background.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+:root {
+  --blue: #2b388c;
+  --blue-400: #505ba1;
+  --blue-transparent: rgba(43, 56, 140, 0.9);
+
+  --light-blue: rgba(67, 200, 245, 0.67);
+  --green-600: #19755d;
+  --green: #1ca17e;
+  --green-transparent: rgba(28, 161, 126, 0.9);
+
+  --gray: #cccccc;
+
+  --black: rgb(36, 35, 35);
+
+  --white-transparent: rgba(250, 250, 250, 0.9);
+}
